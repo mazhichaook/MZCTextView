@@ -15,6 +15,7 @@
 		A021245C1E724BED001B6E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A021245A1E724BED001B6E2B /* LaunchScreen.storyboard */; };
 		A02124671E724BED001B6E2B /* MZCTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02124661E724BED001B6E2B /* MZCTextViewTests.m */; };
 		A02124721E724BEE001B6E2B /* MZCTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A02124711E724BEE001B6E2B /* MZCTextViewUITests.m */; };
+		A02124811E724C56001B6E2B /* MZCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A02124801E724C56001B6E2B /* MZCTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A021246D1E724BEE001B6E2B /* MZCTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZCTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02124711E724BEE001B6E2B /* MZCTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCTextViewUITests.m; sourceTree = "<group>"; };
 		A02124731E724BEE001B6E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A021247F1E724C56001B6E2B /* MZCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZCTextView.h; sourceTree = "<group>"; };
+		A02124801E724C56001B6E2B /* MZCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZCTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A02124501E724BED001B6E2B /* AppDelegate.m */,
 				A02124521E724BED001B6E2B /* ViewController.h */,
 				A02124531E724BED001B6E2B /* ViewController.m */,
+				A021247F1E724C56001B6E2B /* MZCTextView.h */,
+				A02124801E724C56001B6E2B /* MZCTextView.m */,
 				A02124551E724BED001B6E2B /* Main.storyboard */,
 				A02124581E724BED001B6E2B /* Assets.xcassets */,
 				A021245A1E724BED001B6E2B /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				A02124541E724BED001B6E2B /* ViewController.m in Sources */,
 				A02124511E724BED001B6E2B /* AppDelegate.m in Sources */,
+				A02124811E724C56001B6E2B /* MZCTextView.m in Sources */,
 				A021244E1E724BED001B6E2B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

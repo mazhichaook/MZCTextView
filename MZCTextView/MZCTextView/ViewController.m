@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "MZCTextView.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    MZCTextView *textView = [[MZCTextView alloc]initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 300)];
+    
+    textView.autocorrectionType = UITextAutocorrectionTypeNo;
+    
+    textView.autocapitalizationType = UITextAutocapitalizationTypeNone;
+    
+    textView.layer.borderColor = [UIColor blackColor].CGColor;
+    
+    textView.layer.borderWidth = 1;
+    
+    [self.view addSubview:textView];
+    
+    textView.placeholder = @"占位文字......";
+    
+    textView.placeHolderColor = [UIColor lightGrayColor];
 }
 
 
